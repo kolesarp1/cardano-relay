@@ -1,0 +1,10 @@
+#update PATH to cardano-node and cardano-cli
+
+#adding these at the end of ~/.basrc file
+#export path to socket so the script run check_node_status finds node.socket
+export CARDANO_NODE_SOCKET_PATH=/home/patrik/Desktop/cardano-relay/db/node.socket
+#update PATH to cardano-node and cardano-cli
+export PATH=$PATH:/home/patrik/Desktop/cardano-relay/cardano-node-1.30.0-linux
+
+#reload .bashrc settings without logging out and back in again
+. ~/.bashrc
