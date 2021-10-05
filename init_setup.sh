@@ -17,5 +17,5 @@ sudo systemctl enable cardano-node
 
 echo "Cardano variables in $HOME/.bashrc set, congratulations! :-)"
 
-echo "Starting cardano-node with paramenetrs"
+echo "Starting cardano-node with parameters"
 sudo systemctl start cardano-node.service
