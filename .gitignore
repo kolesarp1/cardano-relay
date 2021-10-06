@@ -1,1 +1,3 @@
 startRelayNode1.sh
+gen/*
+!gen/.gitkeep
